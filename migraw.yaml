@@ -1,0 +1,13 @@
+name: kirby.template
+document_root: public
+network:
+	ip: 127.0.0.1
+	host: local.kirby-template.com
+config:
+	php: 8.4
+	node: 22
+	apache: true
+	mysql: false
+	mailhog: true
+exec:
+	- ./init.sh
