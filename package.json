@@ -1,0 +1,11 @@
+{
+    "name": "projectname",
+    "scripts": {
+        "watch": "npx @tailwindcss/cli -i ./site/css/tailwind.css -o ./public/assets/css/styles.css --content './site/**/*.php' -w",
+        "build": "npx @tailwindcss/cli -i ./site/css/tailwind.css -o ./public/assets/css/styles.css --content './site/**/*.php' -m"
+    },
+    "dependencies": {
+        "@tailwindcss/cli": "^4.0.14",
+        "tailwindcss": "^4.0.14"
+    }
+}

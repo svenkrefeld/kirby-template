@@ -8,6 +8,7 @@ Icon
 # ---------------
 
 /public/media/*
+/public/assets/css/*.css
 !/public/media/index.html
 
 # Lock files
@@ -20,6 +21,7 @@ Icon
 /.migraw
 /kirby
 /vendor
+/node_modules
 
 # Editors
 # (sensitive workspace files)
